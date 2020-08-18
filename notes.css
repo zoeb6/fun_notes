@@ -1,0 +1,386 @@
+body {
+  background-image: url("Abstract.jpeg");
+}
+/*H1 {
+  color: lightcoral;
+  text-align: center;
+  font-family: 'Poiret One';
+  font-size: 25px;
+}*/
+input {
+  padding: 4px;
+  border-radius: 10px;
+  font-family: 'Poiret One';
+}
+textarea {
+  padding: 4px;
+  border-radius: 10px;
+}
+return_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #e6b800;
+  border-radius: 10px;
+  padding: 4px;
+}
+return_button:hover {
+   background-color: white;
+color: #e6b800;
+}
+login_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+login_button:hover {
+   background-color: white;
+color: lightcoral;
+}
+save_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #ffb3b3;
+  border-radius: 10px;
+  padding: 4px;
+}
+save_button:hover {
+   background-color: white;
+color: #ffb3b3;
+}
+clear_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #ffb3b3;
+  border-radius: 10px;
+  padding: 4px;
+}
+clear_button:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+p {
+  font-size: 18px;
+  font-family: 'Poiret One';
+}
+select {
+  font-family: 'Poiret One';
+  font-size: 18px;
+  border-radius:10px;
+  padding: 4px;
+  background-color: #ffb3b3;
+  color: white;
+}
+textarea {
+  background-color: white;
+  color: black;
+  font-size: 18;
+  font-family: 'Poiret One';
+}
+textarea2 {
+  background-color: white;
+  color: black;
+  font-size: 18;
+  font-family: 'Poiret One';
+}
+button_red_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_red_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_red_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_red_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_orange_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_orange_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_orange_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_orange_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_yellow_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_yellow_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_yellow_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_yellow_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_green_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_green_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_green_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_green_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_blue_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_blue_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_blue_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_blue_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_purple_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_purple_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_purple_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_purple_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_pink_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_pink_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_pink_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_pink_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_white_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_white_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_white_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_white_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_black_1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_black_1:hover {
+  background-color: white;
+  color: lightcoral;
+}
+button_black_2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+button_black_2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+default_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #ffb3b3;
+  border-radius: 10px;
+  padding: 4px;
+}
+default_button:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.class1 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #e6b800;
+  border-radius: 10px;
+  padding: 4px;
+}
+.class1:hover {
+  background-color: white;
+  color: #e6b800;
+}
+.class2 {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+.class2:hover {
+  background-color: white;
+  color: lightcoral;
+}
+counter_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #e6b800;
+  border-radius: 10px;
+  padding: 4px;
+}
+counter_button:hover {
+   background-color: white;
+color: #e6b800;
+}
+b {
+  font-family: 'Poiret One';
+}
+a {
+  font-family: 'Poiret One';
+}

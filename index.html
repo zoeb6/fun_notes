@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--<H1> Fun Notes </H1>-->
+  <TITLE>Fun Notes || Login</TITLE>
+  <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+  <link href="main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <button onclick="document.getElementById('id01').style.display='block'"class="button" style="vertical-align:middle"><span>LOGIN</span></button>
+  <div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+      <button2 type="submit">Login</button2>
+      <button3 type="submit">Create an Account</button3>
+    </div>
+    <div class="container" style="background-color:#ffb3b3">
+      <button3 type="button" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+    </div>
+    </form>
+  </div>
+  <script>
+  var modal = document.getElementById('id01');
+  window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+  }
+  </script>
+</body>
+</html>

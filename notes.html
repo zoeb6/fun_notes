@@ -1,0 +1,57 @@
+<DOCTYPE.html>
+<HTML lang="en">
+<HEAD>
+  <link id="pagesstyle" href="notes.css" type="text/css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
+  <script src="notes.js"></script>
+  <TITLE>Fun Notes || New Note</TITLE>
+  <!--<H1> Fun Notes </H1>-->
+</HEAD>
+<BODY>
+    <return_button onclick="document.location = 'desk.html'" class="button">Return to Desk</return_button>
+    <login_button onclick="document.location = 'index.html'" class="button">Return to Login</login_button>
+    <save_button onclick="" class="button">Save</save_button>
+    <clear_button onclick="document.getElementById('area').value = ''">Clear</clear_button>
+    <counter_button onclick="countFunction()";>Refresh Counters</counter_button>
+    <span style="display:block; height: 30px;"></span>
+        <div id="container2">
+            <textarea id="area2" rows="1" cols="25">Title</textarea>
+                <a> Words:<b id="counter">0 </b></a>
+                <a> Characterst:<b id="counter2">0 </b></a>
+                <a> Characters - No Spaces:<b id="counter3">0 </b></a>
+        </div>
+    <span style="display:block; height: 10px;"></span>
+        <div id="container">
+            <textarea id="area" rows="16" cols="147"></textarea>
+    <span style="display:block; height: 10px;"></span>
+        </div>
+        <select id="selectBox">
+            <option value="" >Background</option>
+            <option value="1">Red</option>
+            <option value="2">Orange</option>
+            <option value="3">Yellow</option>
+            <option value="4">Green</option>
+            <option value="5">Blue</option>
+            <option value="6">Purple</option>
+            <option value="7">Pink</option>
+            <option value="8">White</option>
+            <option value="9">Black</option>
+        </select>
+        <changebg_button class="class1" id="changebg" onclick="bgFunction()">Change Background</changebg_button>
+        <defaultbg_button class="class2" id="defaultbg" onclick="defaultbgFunction()">Reset Background</defaultbg_button>
+        <select id="selectBox2">
+            <option value="">Font</option>
+            <option value="1">Red</option>
+            <option value="2">Orange</option>
+            <option value="3">Yellow</option>
+            <option value="4">Green</option>
+            <option value="5">Blue</option>
+            <option value="6">Purple</option>
+            <option value="7">Pink</option>
+            <option value="8">White</option>
+            <option value="9">Black</option>
+        </select>
+        <changefont_button class="class1" id="changefont" onclick="fontFunction()">Change Font</changefont_button>
+        <defaultfont_button class="class2" id="defaultfont" onclick="defaultfontFunction()">Reset Font</defaultfont_button>
+</script>
+</BODY>

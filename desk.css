@@ -1,0 +1,407 @@
+body {
+  background-image: url("Abstract.jpeg");
+}
+new_note {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: #e6b800;
+  border-radius: 10px;
+  padding: 4px;
+}
+new_note:hover {
+   background-color: white;
+  color: #e6b800;
+}
+login_button {
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: 'Poiret One';
+  color:white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 4px;
+}
+login_button:hover {
+   background-color: white;
+color: lightcoral;
+}
+H1 {
+  color: lightcoral;
+  text-align: center;
+  font-family: 'Poiret One';
+  font-size: 25px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 30;
+}
+
+.container .btn {
+  position: fixed;
+  top: 190;
+  left: 60;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container2 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 230;
+}
+
+.container2 .btn {
+  position: fixed;
+  top: 190;
+  left: 260;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container2 .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container3 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container3 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 430;
+}
+
+.container3 .btn {
+  position: fixed;
+  top: 190;
+  left: 460;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container3 .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container4 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container4 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 630;
+}
+
+.container4 .btn {
+  position: fixed;
+  top: 190;
+  left: 660;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container4 .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container5 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container5 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 830;
+}
+
+.container5 .btn {
+  position: fixed;
+  top: 190;
+  left: 860;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container5 .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container6 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container6 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 120;
+  left: 1030;
+}
+
+.container6 .btn {
+  position: fixed;
+  top: 190;
+  left: 1060;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container6 .btn:hover {
+  background-color: white;
+  color: #ffb3b3;
+}
+.container7 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container7 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 30;
+}
+
+.container7 .btn {
+  position: fixed;
+  top: 400;
+  left: 60;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container7 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
+.container8 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container8 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 230;
+}
+
+.container8 .btn {
+  position: fixed;
+  top: 400;
+  left: 260;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container8 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
+.container9 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container9 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 430;
+}
+
+.container9 .btn {
+  position: fixed;
+  top: 400;
+  left: 460;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.containe9 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
+.container10 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container10 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 630;
+}
+
+.container10 .btn {
+  position: fixed;
+  top: 400;
+  left: 660;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container10 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
+.container11 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container11 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 830;
+}
+
+.container11 .btn {
+  position: fixed;
+  top: 400;
+  left: 860;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container11 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
+.container12 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container12 img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 330;
+  left: 1030;
+}
+
+.container12 .btn {
+  position: fixed;
+  top: 400;
+  left: 1060;
+  background-color: #ffb3b3;;
+ color: white;
+  font-size: 18.5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Poiret One';
+}
+
+.container12 .btn:hover {
+  background-color: white;
+color: #ffb3b3;
+}
